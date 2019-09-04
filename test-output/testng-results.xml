@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="4" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="67174" started-at="2019-08-29T10:24:49Z" finished-at="2019-08-29T10:25:56Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="67174" started-at="2019-08-29T10:24:49Z" finished-at="2019-08-29T10:25:56Z">
+      <class name="onlineshop.Online_Shopping">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:onlineshop.Online_Shopping@4b9e13df]" name="beforeTest" is-config="true" duration-ms="33167" started-at="2019-08-29T15:54:49Z" finished-at="2019-08-29T15:55:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="FAIL" signature="Registration()[pri:1, instance:onlineshop.Online_Shopping@4b9e13df]" name="Registration" duration-ms="14718" started-at="2019-08-29T15:55:22Z" finished-at="2019-08-29T15:55:37Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Login] but found [shan]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Login] but found [shan]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at onlineshop.Online_Shopping.Registration(Online_Shopping.java:67)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1129)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:746)
+	at org.testng.TestRunner.run(TestRunner.java:600)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1264)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1189)
+	at org.testng.TestNG.runSuites(TestNG.java:1104)
+	at org.testng.TestNG.run(TestNG.java:1076)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registration -->
+        <test-method status="PASS" signature="getResultAfterMethod(org.testng.ITestResult)[pri:0, instance:onlineshop.Online_Shopping@4b9e13df]" name="getResultAfterMethod" is-config="true" duration-ms="412" started-at="2019-08-29T15:55:37Z" finished-at="2019-08-29T15:55:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Registration status=FAILURE method=Online_Shopping.Registration()[pri:1, instance:onlineshop.Online_Shopping@4b9e13df] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResultAfterMethod -->
+        <test-method status="PASS" signature="login()[pri:2, instance:onlineshop.Online_Shopping@4b9e13df]" name="login" duration-ms="3966" started-at="2019-08-29T15:55:37Z" finished-at="2019-08-29T15:55:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="getResultAfterMethod(org.testng.ITestResult)[pri:0, instance:onlineshop.Online_Shopping@4b9e13df]" name="getResultAfterMethod" is-config="true" duration-ms="0" started-at="2019-08-29T15:55:41Z" finished-at="2019-08-29T15:55:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=Online_Shopping.login()[pri:2, instance:onlineshop.Online_Shopping@4b9e13df] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResultAfterMethod -->
+        <test-method status="PASS" signature="add_to_cart()[pri:3, instance:onlineshop.Online_Shopping@4b9e13df]" name="add_to_cart" duration-ms="8305" started-at="2019-08-29T15:55:41Z" finished-at="2019-08-29T15:55:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add_to_cart -->
+        <test-method status="PASS" signature="getResultAfterMethod(org.testng.ITestResult)[pri:0, instance:onlineshop.Online_Shopping@4b9e13df]" name="getResultAfterMethod" is-config="true" duration-ms="0" started-at="2019-08-29T15:55:49Z" finished-at="2019-08-29T15:55:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=add_to_cart status=SUCCESS method=Online_Shopping.add_to_cart()[pri:3, instance:onlineshop.Online_Shopping@4b9e13df] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResultAfterMethod -->
+        <test-method status="PASS" signature="payment()[pri:4, instance:onlineshop.Online_Shopping@4b9e13df]" name="payment" duration-ms="5784" started-at="2019-08-29T15:55:49Z" finished-at="2019-08-29T15:55:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- payment -->
+        <test-method status="PASS" signature="getResultAfterMethod(org.testng.ITestResult)[pri:0, instance:onlineshop.Online_Shopping@4b9e13df]" name="getResultAfterMethod" is-config="true" duration-ms="0" started-at="2019-08-29T15:55:55Z" finished-at="2019-08-29T15:55:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=payment status=SUCCESS method=Online_Shopping.payment()[pri:4, instance:onlineshop.Online_Shopping@4b9e13df] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResultAfterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:onlineshop.Online_Shopping@4b9e13df]" name="afterTest" is-config="true" duration-ms="781" started-at="2019-08-29T15:55:55Z" finished-at="2019-08-29T15:55:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- onlineshop.Online_Shopping -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
